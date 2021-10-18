@@ -1,0 +1,149 @@
+.App {
+	text-align: center;
+}
+
+.App-header {
+	min-height: 100vh;
+	font-size: calc(10px + 2vmin);
+	background: #a3dbfc;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+}
+
+/* .card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	width: 40%;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+} */
+
+.container {
+	padding: 10px 16px;
+}
+
+.large-card {
+	margin: calc(100% / 24) 0 0 calc(100% / 24);
+	background-color: #e2f3fd;
+	min-height: 88vh;
+	border-radius: 15px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.medium-card {
+	margin: 2% 0 0 2%;
+	background-color: #f2f2f2;
+	min-height: 82vh;
+	border-radius: 8px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.side-nav-profile {
+	background-color: #ffffff;
+	min-height: 82vh;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+/* Col styles */
+.col-1 {
+	float: left;
+	width: calc(100% / 12);
+}
+
+.col-2 {
+	float: left;
+	width: calc(100% / (12 / 2));
+}
+
+.col-3 {
+	float: left;
+	width: calc(100% / (12 / 3));
+}
+
+.col-4 {
+	float: left;
+	width: calc(100% / (12 / 4));
+}
+
+.col-5 {
+	float: left;
+	width: calc(100% / (12 / 5));
+}
+
+.col-6 {
+	float: left;
+	width: calc(100% / (12 / 6));
+}
+
+.col-7 {
+	float: left;
+	width: calc(100% / (12 / 7));
+}
+
+.col-8 {
+	float: left;
+	width: calc(100% / (12 / 8));
+}
+
+.col-9 {
+	float: left;
+	width: calc(100% / (12 / 9));
+}
+
+.col-10 {
+	float: left;
+	width: calc(100% / (12 / 10));
+}
+
+.col-11 {
+	float: left;
+	width: calc(100% / (12 / 11));
+}
+
+.col-12 {
+	float: left;
+	width: 100%;
+}
+
+.column {
+	float: left;
+	width: 25%;
+	padding: 10px;
+}
+
+.row:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 900px) {
+	.column {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}

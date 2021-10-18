@@ -1,0 +1,71 @@
+.profile-user-card {
+	margin: 2% 3% 2% 3%;
+	min-height: 20vh;
+	border-radius: 5px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	background-position: center center;
+	background-image: url('assets/profile-background.jpg');
+	background-size: cover;
+}
+.profile-user-card div {
+	position: absolute;
+}
+
+.profile-image {
+	border-radius: 50%;
+	margin-top: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.profile-info div {
+	margin: 0 0 0 20%;
+}
+
+.short-bio {
+	text-align: left;
+	font-size: 13px;
+	margin-top: 0;
+	margin-left: 30%;
+}
+
+.card-heading {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.user-info-card {
+	margin: 2% 0 2% 3%;
+	padding: 25px;
+	text-align: left;
+	font-size: 15px;
+	min-height: 25vh;
+	border-radius: 5px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	background-color: #ffff;
+}
+
+.next-amigo-bt {
+	margin: 10px;
+	padding: 12px 12px;
+	cursor: pointer;
+	border: 0 none;
+	color: #ffffff;
+	background: #c00;
+	font-size: 18px;
+}
+
+.add-amigo-bt {
+	margin: 10px;
+	padding: 12px 12px;
+	cursor: pointer;
+	border: 0 none;
+	color: #ffffff;
+	background: #08c;
+	font-size: 18px;
+}
+
+.add-amigo-bt:hover {
+	background: #333333;
+}

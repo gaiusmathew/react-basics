@@ -1,1 +1,1 @@
-web: cd exercise-2-hello-world/npm start
+web: cd exercise-2-hello-world && npm start
